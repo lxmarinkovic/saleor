@@ -15,6 +15,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Improve draft orders and orders webhooks by @jakubkuc
 - Fix cursor-based pagination in products search - #8011 by @rafalp
 - Extend `accountRegister` mutation to consume first & last name - #8184 by @piotrgrundas
+- Reserve stocks for checkouts - #7589 by @rafalp
 
 
 # 3.0.0 [Unreleased]
@@ -157,7 +158,6 @@ All notable, unreleased changes to this project will be documented in this file.
 - Allow impersonating user by an app/staff - #7754 by @korycins:
   - Add `customerId` to `checkoutCustomerAttach` mutation
   - Add new permision `IMPERSONATE_USER`
-- Reserve stocks for checkouts - #7589 by @rafalp
 
 
 ### Breaking
