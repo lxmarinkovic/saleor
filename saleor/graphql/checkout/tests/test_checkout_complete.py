@@ -1104,6 +1104,7 @@ def test_checkout_complete_insufficient_stock_payment_voided(
 
 
 def test_checkout_complete_insufficient_stock_reserved_by_other_user(
+    site_settings_with_reservations,
     user_api_client,
     checkout_with_item,
     address,
@@ -1159,6 +1160,7 @@ def test_checkout_complete_insufficient_stock_reserved_by_other_user(
 
 
 def test_checkout_complete_own_reservation(
+    site_settings_with_reservations,
     user_api_client,
     checkout_with_item,
     address,
